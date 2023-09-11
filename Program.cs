@@ -33,6 +33,7 @@ namespace binhexdec
                 {
                     Console.WriteLine("Vaše číslo: " + number);
                     Console.ForegroundColor = ConsoleColor.Green;
+                    //Napsal Libor Šenar
                     Console.WriteLine();
                     Console.WriteLine("Binary: " + Convert.ToString(Convert.ToInt32(number), 2));
                     Console.WriteLine("Hexidecimal: " + Convert.ToString(Convert.ToInt32(number), 16).ToUpper());
